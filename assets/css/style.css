@@ -37,19 +37,19 @@ h1 {
     height: 100%;
 }
 
-.navigation a{
+.navigation li{
     height: 100%;
     display: table;
     float: left;
     padding: 0px 20px;
-}
-
-.navigation a li{
     display: table-cell;
-    color:#777777 ;
+    color:#777777;
     
 }
 
+a {
+    text-decoration: none;
+}
 hr {
     width: 100%;
 }
