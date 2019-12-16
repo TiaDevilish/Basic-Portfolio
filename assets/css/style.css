@@ -1,7 +1,7 @@
 h1 {
     font-size: 30px;
     margin: 0px;
-    padding: 0px;  
+    padding: 0px 10px 0px 10px;
 }
 
 .header {
@@ -30,6 +30,7 @@ h1 {
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    
 }
 .navigation {
     float: right;
