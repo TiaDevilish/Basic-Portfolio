@@ -13,7 +13,7 @@ h1 {
     position: absolute;
     top: 0;
     font-family:'Georgia', Times, 'Times New Roman' , serif;
-    
+    border-bottom: 2px solid lightgray;
 }
 
 .inner_header {
@@ -88,6 +88,7 @@ img {
     block-size: 960px;
     height: 500px;
     background-color: #ffffff;
+    border: 1px solid lightgray;
 }
 
 footer {
@@ -98,6 +99,9 @@ footer {
     position: absolute;
     bottom: 0;
     color: white;
+    text-align: center;
+    font-size: small;
+    border-top: 8px solid #4aaaa5;
 }
 
 p {
@@ -107,14 +111,12 @@ p {
     line-height: 30px;
     text-indent: 30px;
     text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 h2 {
     color:#4aaaa5;
     text-indent: 10px;
     margin-left: 10px;
-}
-
-.copyright {
-    text-align: center;
 }
