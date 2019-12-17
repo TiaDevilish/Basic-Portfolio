@@ -62,8 +62,7 @@ a:hover {
 }
 
 hr {
-    width: 100%;
-    
+    width: 95%;
 }
 
 body {
@@ -78,9 +77,10 @@ img {
     display: block;
     block-size: 170px;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .main_content {
@@ -106,10 +106,15 @@ p {
     font-size: 19px;
     line-height: 30px;
     text-indent: 30px;
-    text-align: initial;
+    text-align: left;
 }
 
 h2 {
     color:#4aaaa5;
     text-indent: 10px;
+    margin-left: 10px;
+}
+
+.copyright {
+    text-align: center;
 }
