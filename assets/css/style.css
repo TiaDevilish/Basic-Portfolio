@@ -1,7 +1,8 @@
 h1 {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0px;
     padding: 0px 10px 0px 10px;
+    
 }
 
 .header {
@@ -11,11 +12,12 @@ h1 {
     background-color: #ffffff;
     position: absolute;
     top: 0;
+    font-family:'Georgia', Times, 'Times New Roman' , serif;
     
 }
 
 .inner_header {
-    width: 280px;
+    width: 220px;
     height: 100%;
     display: block;
     margin: left;
@@ -61,6 +63,7 @@ a:hover {
 
 hr {
     width: 100%;
+    
 }
 
 body {
@@ -75,6 +78,9 @@ img {
     display: block;
     block-size: 170px;
     float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .main_content {
@@ -91,5 +97,19 @@ footer {
     background-color:#666666;
     position: absolute;
     bottom: 0;
+    color: white;
+}
 
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 19px;
+    line-height: 30px;
+    text-indent: 30px;
+    text-align: initial;
+}
+
+h2 {
+    color:#4aaaa5;
+    text-indent: 10px;
 }
