@@ -122,9 +122,57 @@ h2 {
 }
 
 form {
+    margin-top: 40px;
     background-color: #ffffff;
     width: 650px;
-    height: 400px;
+    height: 500px;
     margin-left: 163px;
+    box-sizing: border-box;
+    border: 0.5px solid lightgray;
+}
+
+input {
+    width: 90%;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 25px;
+}
+
+textarea {
+    width: 586px;
+    padding: 6px;
+    margin-top: 6px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    height: 100px;
+    resize: none;
+}
+
+label {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 6px;
+    margin-bottom: 25px;
     
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 25px;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid #34c1e5;
+    margin-left: 285px;
 }
