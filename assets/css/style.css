@@ -120,3 +120,11 @@ h2 {
     text-indent: 10px;
     margin-left: 10px;
 }
+
+form {
+    background-color: #ffffff;
+    width: 650px;
+    height: 400px;
+    margin-left: 163px;
+    
+}
