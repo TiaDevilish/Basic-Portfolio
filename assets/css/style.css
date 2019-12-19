@@ -96,7 +96,7 @@ footer {
     height: 50px;
     display: block;
     background-color:#666666;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     color: white;
     text-align: center;
@@ -177,14 +177,21 @@ h3 {
     margin-left: 25px;
 }
 
-.portfolio_images h5 {
-    position: absolute;
+.portfolio_images {
+    display: inline-flex;
+    padding-left: 22px;
+    }
 
-  
+.portfolio_images h5{
+    position: absolute;
+    display: block;
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 130px;
+    text-align: center;
+    padding: 10px 10px 10px 10px; 
 }
 
-.portfolio_images {
-    margin-top: 5px;
-    margin-bottom: -10px;
-    
+.port_image {
+    margin: 0 0 0 0;
 }
