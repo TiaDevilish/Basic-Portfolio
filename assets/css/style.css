@@ -136,6 +136,7 @@ input {
     padding: 6px;
     margin-top: 6px;
     margin-left: 25px;
+    margin-bottom: 6px;
 }
 
 textarea {
@@ -156,8 +157,7 @@ label {
     margin-right: 25px;
     padding-top: 6px;
     margin-bottom: 25px;
-    
-}
+  }
 
 h3 {
     color: #4aaaa5;
@@ -188,8 +188,9 @@ h3 {
     color: white;
     background-color: #4aaaa5;
     margin-top: 130px;
-    text-align: center;
     padding: 10px 10px 10px 10px; 
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .port_image {
