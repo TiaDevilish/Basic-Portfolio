@@ -186,7 +186,6 @@ h3 {
     position: absolute;
     display: block;
     color: white;
-    background-color: #4aaaa5;
     margin-top: 130px;
     padding: 10px 10px 10px 10px; 
     text-align: center;
@@ -195,4 +194,15 @@ h3 {
 
 .port_image {
     margin: 0 0 0 0;
+}
+
+.h5:hover {
+    color: #4aaaa5;
+    text-decoration: underline #4aaaa5;
+    text-align: center;
+}
+
+.h5 {
+    font-size: 20px;
+    font-weight: bolder;
 }
